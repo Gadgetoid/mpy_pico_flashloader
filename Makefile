@@ -6,7 +6,7 @@ PICO_SDK_DIR = ${MPY_DIR}/lib/pico-sdk
 MOD = bootstrap
 
 # Source files (.c or .py)
-SRC = main.c lib1funcs.S #${PICO_SDK_DIR}/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+SRC = main.c
 
 # Architecture to build for (x86, x64, armv7m, xtensa, xtensawin, rv32imc)
 ARCH = armv6m
